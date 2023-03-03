@@ -1,0 +1,15 @@
+.PostForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 70px auto 0;
+    row-gap: 20px;
+
+    input {
+        flex: 1;
+    }
+
+    textarea {
+        resize: none;
+    }
+}

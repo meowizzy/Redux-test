@@ -1,0 +1,16 @@
+.Input {
+    padding: 10px 15px;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 1px var(--gray);
+    outline: none;
+    height: 40px;
+    border: 0;
+
+    &:hover {
+        box-shadow: inset 0 0 0 1px var(--gray-hover);
+    }
+
+    &:focus {
+        box-shadow: inset 0 0 0 1px var(--gray-active);
+    }
+}

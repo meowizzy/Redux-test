@@ -1,0 +1,22 @@
+.button {
+    border: 0;
+    border-radius: 0;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: var(--trans);
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--primary-hover);
+    }
+
+    &:active {
+        background-color: var(--primary-active);
+    }
+}
